@@ -1,0 +1,98 @@
+.customNav {
+  width: 100%;
+  background: rgba(255, 255, 0, 0) !important;
+  display: flex;
+  z-index: 500 !important;
+  padding-top: 1%;
+}
+
+$themeGreen: #06aca4;
+
+.customNav a {
+  z-index: 999;
+}
+
+.links {
+  margin-left: 5%;
+  margin-right: 5%;
+  height: 100%;
+}
+
+.links a {
+  margin: 0px 10px;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 1.5em;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  transition: 0.5s;
+  color: $themeGreen;
+}
+
+.navBrand {
+  margin: 0% 0px 0px 5%;
+  font-family: "Cabin", sans-serif;
+  font-weight: bold;
+  font-size: 2em;
+  transition: 0.4s;
+  color: #f6a017 !important;
+  transition: 1s;
+}
+
+.navBrand:hover {
+  transform: translateY(-5px);
+}
+
+.links a:hover {
+  cursor: pointer;
+  transform: translateY(-3px);
+  color: #fdba03 !important;
+}
+
+
+.profileContainer {
+  padding: 0px 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: auto;
+  margin-right: 10%;
+  position: absolute;
+  right: 10vw;
+  top: 35px;
+}
+
+.linksMenu {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.loggedInStatus {
+  font-size: 1em;
+  width: 90%;
+  padding: 5px 0px 0px 5px;
+}
+
+.profileContainer:hover, .linksMenu:hover, linksMenu a:hover {
+  transform: none !important;
+}
+
+.dropdown-toggle::after {
+  display: none !important;
+}
+
+@media (min-width: 992px) {
+  .profileContainer{
+    position: relative;
+    right: auto;
+    top: auto;
+  }
+}
+
+
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-collapse {
+    display: flex !important;
+  }
+}

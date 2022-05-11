@@ -1,0 +1,164 @@
+$themeGreen: #06aca4;
+$themeOrange: #fdba03;
+
+.homeContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.topSection {
+    display: flex;
+    flex-direction: column;
+    min-height: 80vh;
+
+    h1 {
+        background: -webkit-linear-gradient(right,  #06aca4, #fdba03);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+}
+
+.topSectionText {
+    width: 90%;
+    margin: 0px auto;
+}
+
+
+.readMore:hover {
+    padding: 10px 30px;
+    transition: 0.2s;
+}
+
+.readMore {
+    border-radius: 100px;
+    background-color: $themeGreen;
+    color: white;
+    padding: 10px 20px;
+    border: none !important;
+    margin: 20px 0px;
+    
+
+   
+    span {
+       font-weight: 500; 
+       text-transform: capitalize;
+       font-family: Poppins;
+    }
+    .arrow {
+        position: relative;
+        top: 2px;
+        display: inline-block;
+        width: 8px;
+        height: 15px;
+        margin-left: 10px;
+        background-image: url(../assets/arrow.png);
+        background-position: 0% 50%;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+}
+
+.homeMain {
+    margin: 50px auto;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    h1{
+       text-align: center;
+    }
+}
+
+.mainSection {
+    position: relative;
+    display: block;
+    visibility: hidden;
+    top: -10vh;
+}
+
+.mainRow {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+.mainImage {
+    width: 100%;
+}
+
+.reverse {
+    flex-direction: column;
+}
+
+.mainText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+.number {
+    color: $themeOrange;
+    font-size: 4em;
+    font-family: 'Bangers', cursive;
+}
+
+@media screen and (min-width: 600px) {
+}
+
+@media only screen and (min-width: 768px) {
+
+}
+
+@media only screen and (min-width: 992px) {
+    .homeContainer {
+        width: 80%;
+        margin: 0px auto;
+        margin-top: 10vh;
+    }
+
+    .mainRow {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-evenly;
+        margin-top: 50px;
+    }
+    .topSection {
+        display: flex;
+        flex-direction: row;
+    }
+    .topSectionText {
+        width: 50%;
+        margin: 0px;
+    }
+    .moments {
+        position: absolute;
+        top: 15vh;
+       right: -25vw;
+       transform: scale(0.5)
+    }
+    .reverse {
+        flex-direction: row-reverse;
+        text-align: end;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .moments {
+        position: absolute;
+        top: 15vh;
+       right: -15vw;
+       transform: scale(0.6)
+    }
+}
+
+@media only screen and (min-width: 1400px) {
+    .moments {
+        position: absolute;
+        top: 15vh;
+       right: -3vw;
+       transform: scale(0.9)
+    }
+}

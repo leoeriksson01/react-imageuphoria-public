@@ -1,0 +1,36 @@
+.createContainer {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	align-items: center;
+}
+
+
+.customFormGroup {
+    background: none !important;
+    border: 1px solid #fdba03;
+    padding: 5px;
+    border-radius: 2px;
+    margin: 10px auto;
+}
+
+.updateButton {
+    display:block;
+}
+
+.uploadFile {
+    margin-top: 20px;
+}
+.addAlbumForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    input {
+        width: fit-content;
+    }
+
+    .authButton {
+        margin-top: 20px;
+    }
+}

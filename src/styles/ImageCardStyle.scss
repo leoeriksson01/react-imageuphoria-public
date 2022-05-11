@@ -1,0 +1,71 @@
+.imageCard {
+    width: 94%;
+    margin: 1% 3%;
+}
+
+.gallerySummary .imageCard {
+    aspect-ratio: 1/1;
+    margin: 3% 3%;
+}
+
+.greenBorder {
+    border: 2px solid green;
+}
+
+.redBorder {
+    border: 2px solid red;
+}
+
+.imagePictureContainer {
+    height: 300px;
+    width: 100%;
+    margin: 10px 0 10px 0px;
+}
+
+.imageCard .imagePictureContainer img {
+object-fit: cover;
+object-position: center;
+width: 100%;
+height: 100%;
+}
+
+.deleteButton {
+    align-self: flex-end;
+    justify-self: flex-end;
+}
+
+.cardActions {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.cardRatings {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    margin-top: 5px;
+}
+
+.cardLike {
+    margin-left: 10px;
+}
+
+.cardDislike {
+    margin-left: 20px;
+}
+@media screen and (min-width: 600px) {
+}
+
+@media only screen and (min-width: 768px) {
+ 
+}
+
+@media only screen and (min-width: 992px) {
+}
+
+@media only screen and (min-width: 1200px) {
+.imageCard {
+    
+}
+}

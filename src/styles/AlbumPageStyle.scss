@@ -1,0 +1,91 @@
+.albumPageContainer {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.albumMain {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.albumAddImages {
+    width: 99%;
+    margin: 40px auto;
+}
+
+.albumGrid {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.albumRow {
+    display: flex;
+    flex-direction: column;
+}
+
+.statusImages {
+    display: flex;
+    flex-direction: column;
+}
+
+.likedImages {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 40px;
+}
+
+.imageCheckbox {
+    margin-left: 10px;
+}
+
+
+.gallerySummary {
+    padding: 100px 0px 50px 0px;
+    text-align: center;
+}
+
+.btn-primary {
+    margin: 20px 0px !important;
+}
+
+.css-i4bv87-MuiSvgIcon-root {
+    fill: #06aca4 !important;
+}
+
+.css-vubbuv {
+    fill: #06aca4 !important;
+}
+@media screen and (min-width: 600px) {
+}
+
+@media only screen and (min-width: 768px) {
+    .albumGrid {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+ 
+}
+
+@media only screen and (min-width: 992px) {
+
+}
+
+@media only screen and (min-width: 1200px) {
+    .albumPageContainer {
+        padding: 100px;
+    }
+    .albumGrid {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    .statusImages {
+        display: flex;
+        flex-direction: row;
+    }
+    .likedImages {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        width: 100%;
+    }
+}

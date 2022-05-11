@@ -1,0 +1,87 @@
+.albumsContainer {
+    padding: 10px;
+    width: 100%;
+    margin: 0px auto;
+}
+
+.albumCard {
+    color: white;
+    margin: 10px;
+    margin-top: auto !important;
+}
+
+.albumCard:hover {
+    cursor: pointer;
+}
+
+.albumsGrid {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.edit {
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    margin-left: 10px;
+}
+.css-i4bv87-MuiSvgIcon-root {
+    fill: #06aca4 !important;
+    
+}
+
+.albumCard img {
+    height: 100%;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.cardActions {
+    display: flex;
+}
+.albumName {
+    text-align: center;
+}
+
+.albumImage {
+    height: 300px;
+}
+
+@media screen and (min-width: 600px) {
+}
+
+@media only screen and (min-width: 768px) {
+    .albumsGrid {
+        grid-template-columns: 1fr 1fr;
+    }
+
+}
+
+@media only screen and (min-width: 992px) {
+    .albumsContainer {
+        padding: 20px;
+        width: 80%;
+        margin: 0px auto;
+    }
+
+    .albumsGrid {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    
+.albumCard {
+    margin: 20px;
+}
+  
+}
+
+@media only screen and (min-width: 1200px) {
+    .albumsGrid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+    
+    
+}
+
